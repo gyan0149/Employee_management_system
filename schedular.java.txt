@@ -1,0 +1,18 @@
+/*
+ * package Employee_system.schedular; import Employee_system.entity.Employee;
+ * import Employee_system.repository.EmpRepository; import
+ * org.springframework.scheduling.annotation.Scheduled; import
+ * org.springframework.stereotype.Component; import java.io.BufferedReader;
+ * import java.io.FileReader; import java.io.IOException;
+ * 
+ * @Component public class schedular {
+ * 
+ * private EmpRepository empRepository;
+ * 
+ * public schedular(EmpRepository empRepository) { this.empRepository =
+ * empRepository; }
+ * 
+ * @Scheduled(fixedRate = 5000){
+ * 
+ * }
+ */
